@@ -1,4 +1,8 @@
 <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Studienplan</title>
 <style>
 .veranst { border-right: 2px solid #000; vertical-align: middle; }
 .veranst span { transform: rotate(-90deg) translateX(-100px); display: block; font-size: 2em; width: 20px !important; }
@@ -15,14 +19,17 @@ td { padding: 1rem; }
   background-repeat: repeat-y;
 }
 body { font-family: "Nimbus Sans L"; }
+table { border:0; border-spacing:0; }
 </style>
-<table border=0 cellspacing=0>
+</head>
+<body>
+<table>
   <tr><td></td><td colspan="6" class="sest">Semester</td></tr>
   <tr class="puc"><td></td><td><b>1</b> &ndash; WiSe</td><td><b>2</b> &ndash; SoSe</td><td><b>3</b> &ndash; WiSe</td><td><b>4</b> &ndash; SoSe</td><td><b>5</b> &ndash; WiSe</td><td><b>6</b> &ndash; SoSe</td></tr>
   <tr class="brt">
-    <td rowspan="7" class="veranst"><span>Veranstaltungen</span></td>
+    <td rowspan="6" class="veranst"><span>Veranstaltungen</span></td>
     <td class="dot"><div class="blk">FOP</div></td>
-    <td class="dot"><div class="blk">A&D</div></td>
+    <td class="dot"><div class="blk">A&amp;D</div></td>
     <td class="dot"><div class="blk">SPP</div></td>
     <td class="dot"><div class="blk">IM</div></td>
     <td class="dot"><div class="blk">OS</div></td>
@@ -32,7 +39,7 @@ body { font-family: "Nimbus Sans L"; }
     <td class="dot"></td>
     <td class="dot"></td>
     <td class="dot"><div class="blk">EiCB</div></td>
-    <td class="dot" class="dot"><div class="blk">CE</div></td>
+    <td class="dot"><div class="blk">CE</div></td>
     <td class="dot"><div class="blk">VC</div></td>
     <td></td>
   </tr>
@@ -69,3 +76,5 @@ body { font-family: "Nimbus Sans L"; }
     <td></td>
   </tr>
 </table>
+</body>
+</html>
